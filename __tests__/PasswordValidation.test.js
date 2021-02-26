@@ -1,4 +1,4 @@
-import PasswordValidator from '../src/solution.js';
+import PasswordValidator from '../src/PasswordValidation.js';
 
 test('testValidateWithDefaultOptions', () => {
   const validator = new PasswordValidator({ containNumbers: false });
